@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer components {
+	.header {
+		background: rgb(0, 10, 255);
+		background: linear-gradient(180deg, rgba(0, 10, 255, 1) 0%, rgba(38, 42, 121, 1) 100%);
+		color: white;
+		padding: 1rem !important;
+	}
+}
